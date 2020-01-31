@@ -1,0 +1,54 @@
+/*.img1{
+ 	background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+   background-size: 1367px 448px;
+}*/
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.navbar {
+    background: #afeeee;
+
+}  
+#navbar-brand-text {
+    color: black;
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+/* PADDING */
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    padding-top: 30px;
+}
